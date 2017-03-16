@@ -1,0 +1,96 @@
+.logo {
+    font-family: 'Lobster', cursive;
+    font-size: 7.0em;
+    color: #ffffff;
+    text-shadow: 5px 3px #1E1E1E;
+}
+
+.logo-small {
+    font-family: 'Lobster', cursive;
+    font-size: 1.5em;
+    color: #ffffff;
+    text-shadow: 5px 3px #1E1E1E;
+}
+
+.login-body { 
+  background: url(../img/login.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.login-body img {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.login-container {
+    margin-top: 2%;
+}
+
+#page-wrapper {
+    min-height: 600px;
+}
+
+.panel-dark {
+    border-color: #1E1E1E;
+}
+
+.panel-dark {
+    border-color: #1E1E1E;
+}
+
+.panel-dark > .panel-heading {
+    border-color: #1E1E1E;
+    color: #fff;
+    background-color: #1E1E1E;
+}
+
+.panel-dark > a {
+    color: #1E1E1E;
+}
+
+.panel-dark > a:hover {
+    color: #1E1E1E;
+}
+
+@media (min-width: 150px) {
+    .logo {
+        font-size: 2.0em;
+    }
+} 
+@media (min-width: 768px) {
+    .container-small {
+        width: 300px;
+    }
+    .container-large {
+        width: 970px;
+    }
+    .logo {
+        font-size: 4.0em;
+    }
+} 
+@media (min-width: 992px) {
+    .container-small {
+        width: 500px;
+    }
+    .container-large {
+        width: 1170px;
+    }
+    .logo {
+        font-size: 6.0em;
+    }
+} 
+@media (min-width: 1200px) {
+    .container-small {
+        width: 700px;
+    }
+    .container-large {
+        width: 1500px;
+    }
+}
+
+.container-small, .container-large {
+    max-width: 100%;
+}
